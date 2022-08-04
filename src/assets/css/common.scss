@@ -1,0 +1,93 @@
+// 字体图标
+.iconfont {
+  display: block;
+}
+
+// element plus
+.el-message {
+  z-index: 99999 !important;
+}
+
+// 默认图片
+.default-img {
+  width: 34px;
+  height: 34px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.coin-img {
+  > img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+  }
+}
+
+//很多页面提交按钮样式
+.submit-btn {
+  position: fixed;
+  bottom: 36px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 179px;
+  height: 40px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: inset 0px 0px 12px 1px rgba(255, 255, 255, 1);
+  border-radius: 40px 40px 40px 40px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 99;
+}
+
+//空列表样式
+.empty-list {
+  @include flexPos(center);
+}
+
+
+//ido dialog弹窗
+// .ido-buy {
+//   padding: 0 41px 25px;
+//   .van-field__control {
+//     border-bottom: 1px solid #2c2c2c;
+//   }
+
+//   .van-field {
+//     padding: 15px 0 15px;
+//   }
+
+//   .van-dialog__footer button {
+//     display: inline-block;
+//     background-color: #2c2c2c;
+//     max-width: 234px;
+//     margin: 0 auto;
+//     height: 40px;
+//     border-radius: 7px 7px 7px 7px;
+//     color: #fff;
+//   }
+
+//   .max {
+//     width: 49px;
+//     height: 28px;
+//     border-radius: 6px 6px 6px 6px;
+//     border: 1px solid #2c2c2c;
+//     background-color: #fff;
+//     color: #2c2c2c;
+//     line-height: 14px;
+//     font-size: 12px;
+
+//     &:active {
+//       &:before {
+//         display: none;
+//       }
+//     }
+//   }
+//   input{
+//     color: #000;
+//   }
+// }
